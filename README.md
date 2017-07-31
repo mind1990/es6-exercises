@@ -58,7 +58,7 @@ Condensed timeline:
 - 1999 - ES3 released, the first widespread use of the language.
 - ES4 never released, largely due to  political reasons.
 - 2009 - ES5 released, what we've been writing so far in class.
-- 2015 - ES6 publishe,d releasing a wide set of new features and syntax.
+- 2015 - ES6 published, releasing a wide set of new features and syntax.
 
 #### Why now?
 
