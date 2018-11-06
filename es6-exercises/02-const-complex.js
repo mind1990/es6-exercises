@@ -14,3 +14,11 @@ account.password = "s3cret"
 console.log(account.password)
 
 // source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#Constant_non-constance
+
+// My answer
+const account = {
+  username: "marijn",
+  password: "xyzzy"
+}
+
+const freezeAccount = Object.freeze(account);

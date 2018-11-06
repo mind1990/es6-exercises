@@ -6,7 +6,7 @@ var myRide = {
   year: 1959,
   location: "the Office",
   driveTo: function ( place ) {
-    this.location = place || "Home"
+    this.location = place || this.location;
   }
 }
 

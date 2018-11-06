@@ -22,3 +22,7 @@ const myObjects = [
 console.log(detectCollision(myObjects, {x: 4, y: 2}))
 
 // source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#Improve_this_code
+
+
+
+
