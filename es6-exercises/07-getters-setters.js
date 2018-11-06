@@ -3,10 +3,19 @@
 var register = {
   balance: 0,
   deposit: function(value){
-    this.balance += value
+    if (typeof value === 'number' && value > 0) {
+      this.balance += value;
+    } else {
+      alert('error');
+    }
   },
   withdraw: function(value){
-    this.balance -= value
+    if (this.balance > 0 && value < this.balance) {
+      this.balance -= value;
+    } else {
+      alert('error');
+    }
+  }
   }
 }
 
